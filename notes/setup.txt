@@ -1,0 +1,26 @@
+pip install --upgrade google-api-python-client
+pip3 install --upgrade oauth2client 
+pip3 install openpyxl
+
+update oauth
+sudo apt-get update
+sudo apt-get install python3-oauth2client
+
+ubuntu location
+C:\Users\dodin\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\dodinovembri\airflow
+
+Reference url
+https://yunusmuhammad007.medium.com/apache-airflow-membuat-pipeline-sederhana-untuk-pertama-kali-8a2e771a45ff
+
+Running Script
+python3 upload.py
+
+check version oauth2client
+pip show oauth2client
+
+downgrade oauth2client
+pip install oauth2client==3.0.0
+
+upgrade google api client
+pip install --upgrade google-api-python-client
+pip install --upgrade google-cloud
